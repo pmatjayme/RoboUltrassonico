@@ -60,6 +60,8 @@ float RoboUltrassonico::lerSensor() {
   delayMicroseconds(10);
   digitalWrite(_trigPin, LOW);
   duration = pulseIn(_echoPin, HIGH);
-  _distancia = (duration * 0.0343) / 2; // Calcula a distância em centímetros
-  return _distancia;
+  distancia = (duration * 0.0343)/2;
+  return distancia;
 }
+
+
