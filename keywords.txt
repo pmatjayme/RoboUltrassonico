@@ -1,0 +1,6 @@
+frente	KEYWORD1
+re	KEYWORD1
+vireDireita	KEYWORD1
+vireEsquerda	KEYWORD1
+lerSensor	KEYWORD1
+RoboUltrassonico	KEYWORD2
